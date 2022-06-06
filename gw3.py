@@ -25,6 +25,10 @@ must be done by NEOs built in decentrilezd file system.
 Hence no variables but storage.put and storage.get calls
 instead. 
 
+Before deployment to blockchain the script needs to be compiled by boa into a nef format,
+it can be done via command console, once boa3 is installed
+cd into the directory with this file and run "neo3-boa gw3.py" and you will get the nef file ready for deployment.
+
 '''    
 
 #initialization function, needs to be called by the script owner as soon as the script is launched, to save information that no word was saved at the start of the game yet
